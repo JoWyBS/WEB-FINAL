@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+    <head>
+        <title>Coches Históricos</title>
+		<meta charset="UTF-8"/>
+		<meta name="author" content="JOEL KRISHAN TAPIA">
+		<meta name="keywords" content="coches historicos, formulario, login, registro, cuenta"> 
+        <link rel="stylesheet" href="estilos.css">
+    </head>
+    <body>
+        <div id="container-formulario">
+
+            <header>
+                <h1>Coches Históricos</h1> 
+            </header>
+            
+            <nav>
+                <ul>
+                    <li style="width: 16.66%;">
+                        <a href="formulario.html">
+                            <input type="button" value="Log In/Registro" class="bformulario">
+                        </a>
+                    </li>
+                    <li style="width: 16.66%;">
+                        <a href="historia.html">
+                            <input type="button" value="Historia del automóvil" class="bhistoria">
+                        </a>
+                    </li>
+                    <li style="width: 16.66%;">
+                        <a href="europa.html">
+                            <input type="button" value="Europa" class="beuropa">
+                        </a>
+                    </li>
+                    <li style="width: 16.66%;">
+                        <a href="japon.html">
+                            <input type="button" value="Japón" class="bjapon">
+                        </a>
+                    </li>
+                    <li style="width: 16.66%;">
+                        <a href="estados.unidos.html">
+                            <input type="button" value="Estados Unidos" class="bEstadosUnidos">
+                        </a>
+                    </li>
+                    <li style="width: 16.66%;">
+                        <a href="competiciones.html">
+                            <input type="button" value="Competiciones" class="bCompeticiones">
+                        </a>
+                    </li>
+                </ul>
+           
+            </nav>
+
+            <div class="clearfix"></div>
+
+            <section id="content-formulario">
+                <h2>LOG IN/REGISTRO</h2>
+                <form name="login" method="get" action="Proyecto.html">
+                    <hr></hr><h3><b>Login</b></h3><hr></hr>
+                        <table border="0" class="tamano">
+                            <tr>
+                                <td class="alto"><b>Usuario:</b></td>
+                                <td class="alto">
+                                    <input type="text" name="Nombre" required="required" placeholder="introduzca su usuario"/>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>Contraseña:</b></td>
+                                <td>
+                                    <input type="password" name="contraseña" min="8" placeholder="Introduzca su contraseña" required="required"/>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td class="alto">
+                                    <input type="submit" name="Crear cuenta" value="Iniciar sesión">
+                                    <br></br>
+                                </td>
+                            </tr>
+                        </table><hr></hr>
+              
+                    
+                </form>
+                <form name="login" method="get" action="Cuentacreada.html">
+                    <h3><b>Crear una cuenta</b></h3>
+                   
+                    <table border="0" class="formulario">
+                        <tr>
+                            <td class="bajo"><b>Nombre:</b></td>
+                            <td class="bajo">
+                                <input type="text" name="Nombre" required="required" placeholder="introduzca su nombre"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="bajo"><b>Primer Apellido:</b></td>
+                            <td class="bajo">
+                                <input type="text" name="Segundo Apellido" required="required" placeholder="Introduzca su segundo apellido"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="bajo"><b>Correo electrónico:</b></td>
+                            <td class="bajo"></b><input type="email" name="Email" placeholder="Introduzca su email" required="required"/></td>
+                        </tr>
+                        <tr>
+                            <td class="bajo"><b>Elige una contraseña:</b></td>
+                            <td class="bajo">
+                                <input type="password" name="contraseña" min="8" placeholder="Introduzca una contraseña" required="required"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="bajo"><b>Repita la contraseña:</b></td>
+                            <td class="bajo"><input type="password" name="contraseña" min="8" placeholder="Repita la contraseña" required="required"/></td>
+                        </tr>
+                        <tr>
+                            <td class="bajo"></td>
+                            <td class="bajo" style="font-size: 18px;"><input type="checkbox" name="Sesión" value="No cerrar sesión" id="No cerrar sesión"/><label for="No cerrar sesión" required="required">No cerrar sesión</label></br></td>
+                        <tr>
+                            <td class="bajo"><b>Ubicación:</b></td>
+                            <td class="bajo">
+                                <select name="Ubicación" required="required"/>
+                                    <option value="España">España</option>
+                                    <option value="Alemania">Alemania</option>
+                                    <option value="Estados Unidos">Estados Unidos</option>
+                                    <option value="Islandia">Islandia</option>
+                                    <option value="Italia">Italia</option>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="bajo"><b>Dirección:</b></td>
+                            <td class="bajo">
+                                <input type="text" name="Dirección"  placeholder="Introduzca su dirección" required="required"/>
+                            </td>
+                        </tr>
+                        <hr></hr>
+                        <tr>
+                            <td class="bajo"><b>Fecha de nacimiento:</b></td>
+                            <td class="bajo"><input type="date" name="Fecha de Nacimiento" required="required"></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td ><sub style="font-size: 18px;">DD/MM/AAAA(por ejemplo, "9/11/2011")</sub></td>
+                        </tr>
+                        <tr>
+                            <td class="alto"><b>Móvil:</b></td>
+                            <td class="alto">
+                                <input type="Numbers" name="Movil" maxlength="9" required="required" placeholder="Introduzca su teléfono movil"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td class="alto">
+                                <input type="submit" name="Crear cuenta" value="Crear cuenta">
+                                <br></br>
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </section>
+
+            <div class="clearfix"></div>
+    
+            <footer>
+                <p>CONTACTO:</p>
+                <p>654547646 / jkrishan44@gmail.com <a href="mailto:someone@example.com">Enviar e-mail</a></p>
+                <p>Copyright &copy; 2021 Joel Krishan, todos los derechos reservados.</p>
+            </footer>
+        </div>
+    </body>
+</html>

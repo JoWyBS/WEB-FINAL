@@ -1,0 +1,341 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{background-color: black;
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin: 10px;
+}
+header{
+    background-color: black;
+    color: white;
+    height: 120px;
+    width: 100%;
+    text-align: center;
+    line-height: 120px;
+}
+nav{
+    width: 100%;
+    height: 40px;
+    margin-left: 2px;
+
+}
+nav ul li{
+    float: left;
+    list-style: none;
+}
+.clearfix{
+    clear: both;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+#content-europa h2{
+    background-image:URL("../Coches/european.png");
+	color:#FFCC00;
+	position:static;
+	text-align:center;
+	width:100%;
+    height: 90px;
+    line-height: 90px;
+	float:left;
+	padding-top:30px;
+	padding-bottom:30px;
+	padding-left:3px;
+	font-style:normal;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	font-size:33px;
+	font-weight:bold;
+    border-top: 3px solid black;
+    
+}
+#content-japon h2{
+    background-image:URL("../Coches/japanflag.png");
+	color:rgb(230, 0, 38);
+	position:static;
+	text-align:center;
+	width:100%;
+    height: 90px;
+    line-height: 90px;
+	float:left;
+	padding-top:30px;
+	padding-bottom:30px;
+	padding-left:3px;
+	font-style:normal;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	font-size:33px;
+	font-weight:bold;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+#content-estados h2{
+    background-image:URL("../Coches/usa2.png");
+	color: #3C3B6E;
+	position:static;
+	text-align:center;
+	width:100%;
+    height: 90px;
+    line-height: 90px;
+	float:left;
+	padding-top:30px;
+	padding-bottom:30px;
+    padding-left:3px;
+	font-style:normal;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	font-size:33px;
+	font-weight:bold;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+#content-competiciones h2{
+    background-image:URL("../Coches/carrera.png");
+	color:red;
+	position:static;
+	text-align:center;
+	width:100%;
+    height: 90px;
+    line-height: 90px;
+	float:left;
+	padding-top:30px;
+	padding-bottom:30px;
+	font-style:normal;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	font-size:33px;
+	font-weight:bold;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+#content-historia h2{
+    background-color: lightgreen;
+    color:black;
+	position:static;
+	text-align:center;
+	width:100%;
+    height: 90px;
+    line-height: 90px;
+	float:left;
+	padding-top:30px;
+	padding-bottom:30px;
+	font-style:normal;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	font-size:33px;
+	font-weight:bold;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+#content-formulario h2{
+    background-color: lightcoral;
+    color:black;
+	position:static;
+	text-align:center;
+	width:100%;
+    height: 90px;
+    line-height: 90px;
+	float:left;
+	padding-top:30px;
+	padding-bottom:30px;
+	font-style:normal;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	font-size:33px;
+	font-weight:bold;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+.bformulario{
+	background-color:lightcoral;
+	color:#000000;
+	text-align: center;
+	width:100%;
+	float: left;
+	height:40px;
+	font-style:normal;
+	font-family:"Roboto",sans-serif;
+	font-weight:normal;
+}
+.bhistoria{
+    background-color:lightgreen;
+	color:#000000;
+	text-align: center;
+	width:100%;
+	float: left;
+	height:40px;
+	font-style:normal;
+	font-family:"Roboto",sans-serif;
+	font-weight:normal;
+}
+.beuropa{
+    background-color:#003399;
+	color:#FFCC00;
+	text-align: center;
+	width:100%;
+	float: left;
+	height:40px;
+	font-style:normal;
+	font-family:"Roboto",sans-serif;
+	font-weight:normal;
+}
+.bjapon{
+    background-color:white;
+	color:rgb(230, 0, 38);
+	text-align: center;
+	width:100%;
+	float: left;
+	height:40px;
+	font-style:normal;
+	font-family:"Roboto",sans-serif;
+	font-weight:normal;
+}
+.bEstadosUnidos{
+    background-color:#3C3B6E;
+	color:white;
+	text-align: center;
+	width:100%;
+	float: left;
+	height:40px;
+	font-style:normal;
+	font-family:"Roboto",sans-serif;
+	font-weight:normal;
+}
+.bCompeticiones{
+    background-color:black;
+	color:white;
+	text-align: center;
+	width:100%;
+	float: left;
+	height:40px;
+	font-style:normal;
+	font-family:"Roboto",sans-serif;
+	font-weight:normal;
+}
+#content-historia p{
+	padding: 2px;
+	margin-bottom:5px ;
+}
+#content-europa h3{
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+
+#content-europa a{
+	color:#FFCC00;
+}
+
+#content-europa p{
+	color:#3b6fd8;
+	text-align: center;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+#content-europa article{
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+#content-japon h3{
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+#content-japon a{
+	color:rgb(230, 0, 38);
+}
+#content-japon p{
+	text-align: center;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+#content-japon article{
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+#content-estados h3{
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+#content-estados a{
+	color: #5d5ca0;
+}
+#content-estados p{
+	text-align: center;
+	padding: 3px;
+}
+#content-estados article{
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+.nascar{
+	background-color:#FE2810;
+	float:left;	
+	color:white;
+	width:90%;
+	margin-top:5%;
+	margin-bottom:5%;
+	text-align:center;
+	padding-top:2%;
+	padding-bottom:2%;
+	margin-left:5%;
+	border-radius:12%;
+}
+.gt4{
+	background-color:#4A8739;
+	float:left;	
+	color:white;
+	width:90%;
+	margin-bottom:5%;
+	text-align:center;
+	padding-top:2%;
+	padding-bottom:2%;
+	margin-left:5%;
+	border-radius:12%;
+}
+.wrc{
+	background-color:#32446C;
+	float:left;	
+	width:90%;
+	margin-bottom:5%;
+	text-align:center;
+	padding-top:2%;
+	padding-bottom:2%;
+	margin-left:5%;
+	border-radius:12%;
+}
+.f1{
+	background-color:#A1A5AE;
+	float:left;	
+	width:90%;
+	margin-bottom:5%;
+	text-align:center;
+	padding-top:2%;
+	padding-bottom:2%;
+	margin-left:5%;
+	border-radius:12%;
+}
+#content-competiciones p{
+	padding-bottom: 3px;
+	
+
+}
+#content-formulario h3{
+	margin: 15px;
+
+}
+#content-formulario{
+	text-align: left;
+	
+}
+.tamano{
+	margin-top: 30px;
+	font-size: 25px;
+}
+.formulario{
+	margin-top: 30px;
+	font-size: 25px;
+	
+}
